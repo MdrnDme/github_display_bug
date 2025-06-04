@@ -26,7 +26,7 @@ git status --porcelain | wc -l
 
 # What VS Code shows you:
 "88 files changed"
-# 🤬 Makes me want to go postal!
+# 🤬 Does VS Code make you go postal? Fuck yeah it does!
 ```
 
 ## Battle-Tested Workarounds
@@ -253,7 +253,7 @@ No More Lies
 
 ## Contributing to the Fix
 
-Want to help solve this mess before I go postal? Here's how:
+Want to help solve this mess before VS Code makes us all go postal? Here's how:
 
 ### For Users
 1. **Document your cases** - Record when VS Code lies to you
