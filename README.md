@@ -2,13 +2,13 @@
 
 ![VS Code Bug Status](https://img.shields.io/badge/VS%20Code%20Bug-Confirmed-red) ![Workflow Impact](https://img.shields.io/badge/Workflow%20Impact-High-orange) ![Microsoft Response](https://img.shields.io/badge/Microsoft%20Response-Pending-yellow)
 
-## The Problem That's Driving Everyone Insane
+## The Problem That's Breaking Developer Workflows
 
-Are you sick of VS Code lying to your face about how many files you've actually changed? So are we.
+Are you tired of VS Code showing wildly inaccurate file change counts? You're not alone.
 
-VS Code's file change counter is completely fucked. It shows wildly incorrect numbers that can vary by **thousands** of files from reality, turning a simple "what did I modify?" question into a mystery that would stump Sherlock Holmes.
+VS Code's file change counter is completely borked. It shows wildly incorrect numbers that can vary by **thousands** of files from reality, turning a simple "what did I modify?" question into a mystery that would stump Sherlock Holmes.
 
-**Real Example**: VS Code claimed "88 files changed" when only 10 files were actually modified. That's an **880% error rate**. Your calculator is more reliable than Microsoft's billion-dollar IDE.
+**Real Example**: VS Code claimed "88 files changed" when only 10 files were actually modified. That's an **880% error rate**. This isn't just annoying - it breaks real development workflows.
 
 ## Why This Bug Breaks Real Workflows
 
@@ -26,16 +26,16 @@ git status --porcelain | wc -l
 
 # What VS Code shows you:
 "88 files changed"
-# 🤬🤬🤬
+# 🤬 Makes me want to go postal!
 ```
 
 ## Battle-Tested Workarounds
 
-Since Microsoft can't be bothered to fix their own software, we've built tools that actually work.
+Since Microsoft hasn't addressed this issue yet, we've built tools that actually work.
 
 ### 🛠️ Git Change Tracker Script
 
-A shell script that gives you **REAL** file change counts, not Microsoft's fantasy numbers.
+A shell script that gives you **REAL** file change counts, not VS Code's confused numbers.
 
 ```bash
 #!/bin/bash
@@ -253,7 +253,7 @@ No More Lies
 
 ## Contributing to the Fix
 
-Want to help solve this clusterfuck? Here's how:
+Want to help solve this mess before I go postal? Here's how:
 
 ### For Users
 1. **Document your cases** - Record when VS Code lies to you
@@ -267,7 +267,7 @@ Want to help solve this clusterfuck? Here's how:
 
 ## Conclusion
 
-VS Code's file change counter is fundamentally broken and Microsoft seems content to let developers suffer with wildly inaccurate information. Until they fix their shit, use our tools to get the truth about your file changes.
+VS Code's file change counter is fundamentally broken and Microsoft seems content to let developers suffer with wildly inaccurate information. Until they fix their mess, use our tools to get the truth about your file changes.
 
 **Remember**: Your git repository doesn't lie. VS Code does.
 
